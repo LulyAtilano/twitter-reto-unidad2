@@ -5,10 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> Twitter - Luly </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="css\main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata|PT+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     </head>
     <body>
-        
-        <script src="js\main.js"></script>
+        <!--  ****** HEADER ******  -->
+        <header>
+          <h1> Twitter </h1>
+        </header>
+        <!--  ****** MAIN ******  -->
+        <main id="mainContainer">
+            <!--  ****** SECCIÓN TEXTTWIT (SE GENERAN LOS TWITS) ******  -->
+          <section id="textTweet">
+              <textarea id="insertTweet" placeholder="¿Qué está pasando?"></textarea>
+              <button id="enterTweet" type="button"> Tweet </button>
+          </section>
+          <!--  ****** SECCIÓN CONTAINERTWIT (DONDE SE ALMACENAN LOS TWITS) ******  -->
+          <section id="containerTweet"></section>
+        </main>
+        <script src="js/app.js"></script>
     </body>
 </html>
